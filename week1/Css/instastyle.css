@@ -10,7 +10,7 @@ body {
 .instagram-logo {
     width: 220px;
     height: 220px;
-    background: linear-gradient(135deg,#bc1888  0%,#cc2366 25%, #dc2743 50%,  #e6683c 75%, #f09433 100%);
+    background: linear-gradient(-135deg,#7218bc  7%,#b508e0 15%, #dc2743 50%,  #dba81c 75%, #eed818 100%);
     border-radius: 22%;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
 .camera-icon {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, 0%,#e6683c 25%, #dc2743 50%,#cc2366   75%, #bc1888 100%);
+    background: linear-gradient(-135deg,#964ed5  7%,#b508e0 5%, #dc2743 50%,  #e6683c 75%, #eed818 100%);
     border-radius: 15%;
     position: relative;
     display: flex;
@@ -35,12 +35,12 @@ body {
 }
 
 .inner-circle {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 
     border-radius: 50%;
     position: relative;
-    border-width: 10px;
+    border-width: 8px;
     border-color: white;
     border-style: solid;
 
