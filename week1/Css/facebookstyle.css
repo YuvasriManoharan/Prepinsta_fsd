@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8faed494;
+}
+.fb-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4267B2;
+    padding: 10px 20px;
+    color: white;
+}
+
+.fb-header .logo img {
+    height: 40px;
+}
+
+.fb-header .navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.fb-header .navigation a:hover {
+    text-decoration: underline;
+}
+
+.profile-header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cover-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.user-info {
+    margin-left: 20px;
+}
+
+.user-info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.profile-buttons {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.profile-buttons .btn {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.profile-buttons .btn:hover {
+    background-color: #365899;
+}
