@@ -38,7 +38,7 @@ nav ul li a:hover {
 
 /* Header Section */
 header {
-    background: url('../week1/images/tour.jpg') no-repeat center /cover;
+    background: url('../images/tour.jpg') no-repeat center /cover;
     color: white;
     text-align: center;
     padding: 100px 0;
@@ -75,7 +75,7 @@ header p {
     margin-bottom: 20px;
 }
 #services{
-    background: url('../week1/images/section.jpg') no-repeat center /cover;
+    background: url('../images/section.jpg') no-repeat center /cover;
     border-radius: .5%;
 }
 .feature-box {
