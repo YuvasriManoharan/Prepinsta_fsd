@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.rotating-squares {
+    display: flex;
+    justify-content: space-around;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    position: absolute;
+    animation: rotate 1s infinite;
+}
+
+.square:nth-child(1) {
+    top: 0;
+    left: 0;
+    animation-delay: 0s;
+}
+
+.square:nth-child(2) {
+    top: 0;
+    right: 0;
+    animation-delay: 0.25s;
+}
+
+.square:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    animation-delay: 0.5s;
+}
+
+.square:nth-child(4) {
+    bottom: 0;
+    left: 0;
+    animation-delay: 0.75s;
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+}
