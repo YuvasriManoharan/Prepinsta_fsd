@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="../Css/task1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Employee Management System</h1>
+        </header>
+
+        <section class="employee-list section">
+            <h2>Employee List</h2>
+            <ul id="employee-list" class="card-list"></ul>
+        </section>
+
+        <section class="average-salary section">
+            <h2>Average Salary</h2>
+            <p id="average-salary" class="highlight"></p>
+        </section>
+
+        <section class="department-employees section">
+            <h2>Employees in Department</h2>
+            <div class="input-group">
+                <input type="text" id="department-input" placeholder="Enter department">
+                <button class="action-btn" onclick="showEmployeesInDepartment()">Find Employees</button>
+            </div>
+            <ul id="department-employees-list" class="card-list"></ul>
+        </section>
+
+        <section class="increase-salary section">
+            <h2>Increase Salary</h2>
+            <div class="input-group">
+                <input type="number" id="salary-percentage" placeholder="Enter percentage">
+                <button class="action-btn" onclick="increaseEmployeeSalaries()">Increase Salaries</button>
+            </div>
+        </section>
+
+        <section class="sorted-employees section">
+            <h2>Sorted Employees by Age</h2>
+            <button class="action-btn" onclick="showSortedEmployees()">Sort Employees</button>
+            <ul id="sorted-employee-list" class="card-list"></ul>
+        </section>
+
+        <section class="reset section">
+            <button class="reset-btn" onclick="resetData()">Reset Data</button>
+        </section>
+    </div>
+
+    <div id="employeeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Employee Details</h2>
+            <p id="modal-employee-details"></p>
+        </div>
+    </div>
+
+    <script src="../js/task1.js"></script>
+</body>
+</html>

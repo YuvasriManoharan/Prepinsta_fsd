@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="../Css/task2.css">
+</head>
+<body>
+  <header>
+    <h1>Library Management System</h1>
+  </header>
+
+  <main>
+    <section id="add-book-section">
+      <h2>Add a Book</h2>
+      <form id="add-book-form">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="Pages" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+
+    <section id="search-section">
+      <h2>Search Books</h2>
+      <div id="search-container">
+        <input type="text" id="search" placeholder="Search by title">
+        <button id="search-button">Search</button>
+      </div>
+    </section>
+
+    <section id="book-list-section">
+      <h2>Book List</h2>
+      <div id="book-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Library Management System</p>
+  </footer>
+
+  <script src="../js/task2.js"></script>
+</body>
+</html>

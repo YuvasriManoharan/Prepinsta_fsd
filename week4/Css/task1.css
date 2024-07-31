@@ -1,0 +1,206 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #83a2ab51; /* Light grey background for the whole page */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #fff3fb51; /* White background for the main container */
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(253, 252, 252, 0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+header {
+    border-bottom: 4px solid #2c0f40; /* Blue color for the header border */
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    color: #2c0f40; /* Blue color for the main heading */
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #495057; /* Dark grey for section headings */
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.section {
+    margin-bottom: 30px;
+    background-color: #f8f9fa; /* Light grey background for sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #265d97; /* Blue border on focus */
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color:#265d97; /* Blue button background */
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e7bad; /* Darker blue on hover */
+}
+
+.action-btn {
+    display: inline-block;
+}
+
+.reset-btn {
+    background-color: #dc3545; /* Red color for reset button */
+}
+
+.reset-btn:hover {
+    background-color: #c82333; /* Slightly darker red on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+li {
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #ffffff; /* White background for list items */
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+li:hover {
+    transform: scale(1.02);
+    background-color: #f1f3f5; /* Light grey background on hover */
+}
+
+.details-btn {
+    background-color: #17a2b8; /* Teal color for details button */
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.details-btn:hover {
+    background-color: #138496; /* Slightly darker teal on hover */
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.highlight {
+    font-size: 1.25rem;
+    color: #265d97 ; /* Blue color for highlighted text */
+    font-weight: 500;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(4, 3, 5, 0.1);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Other styles remain unchanged */
+
+#search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #search {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
